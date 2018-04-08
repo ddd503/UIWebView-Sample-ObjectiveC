@@ -10,7 +10,6 @@
 
 @interface WebPageController () <UIWebViewDelegate>
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
-
 @end
 
 static NSString *const RequestURL = @"https://www.apple.com/";
